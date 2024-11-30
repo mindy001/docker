@@ -1,12 +1,8 @@
-# environment.yml
-name: my-env
+name: myenv
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas=2.2.2
-  - pandera=0.20.4
-  - python=3.11
-  - pip
-  - pip:
-    - deepchecks==0.18.1
+  - python=3.9
+  - numpy=1.21.2
+  - pandas=1.3.3
